@@ -7,7 +7,7 @@ public enum AddressType {
     HOME,WORK ;
 }
 ```
-- Since the address entity is still their we just need this filed added to it 
+- Since the address entity is still there we just need this AddressType field added to it. 
 ```java
 @Entity
 @Table(name = "address")
@@ -100,7 +100,11 @@ CREATE TABLE orders (
 
 ### Order entity 
 ```java
-  @Id
+@Entity
+@Table(name = "orders")
+@DATA
+public class OrderEntity {
+    @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     @Column(name = "order_id")
     private Long orderId;
