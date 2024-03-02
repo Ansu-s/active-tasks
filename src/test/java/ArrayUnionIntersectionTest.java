@@ -18,5 +18,3 @@ class ArrayUnionIntersectionTest {
             assertArrayEquals(expectedIntersection, resultIntersection);
         }
     }
-
-}
