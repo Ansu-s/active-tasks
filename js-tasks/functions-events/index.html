@@ -1,0 +1,30 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My page</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    
+<div id="text">
+    <button onclick="hello()">Greet</button>
+</div>
+
+<form id="myForm">
+    <label for="name">Enter your name:</label>
+    <input type="text" id="name" name="name" required>
+    <button onclick="alertUser()" type="submit">Submit</button>
+</form>
+    <label for="num1">Enter number 1:</label>
+    <input type="number" id="num1" name="num1" required>
+    <label for="num2">Enter number 2:</label>
+    <input type="number" id="num2" name="num2" required>
+    <button onclick="addNums()" type="submit">Calculate Sum</button>
+
+<div id="result">The sum is :</div>
+
+
+    <script src="index.js"></script>
+</body>
+</html>

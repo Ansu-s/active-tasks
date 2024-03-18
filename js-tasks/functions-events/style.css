@@ -1,0 +1,16 @@
+#text {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+button {
+    background-color: rgb(33, 33, 193);
+    color: white;
+    padding: 10px 10px;
+    font-size: 15px;   
+}
+
+button:hover {
+    background-color: green;
+}
