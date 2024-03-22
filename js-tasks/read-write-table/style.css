@@ -1,0 +1,72 @@
+.tableTitle {
+    text-align: center;
+    font-family: "Comic Sans MS";
+}
+
+table {
+    align-items: center;
+    border-collapse: collapse;
+    position: relative;
+    width: 80%;
+    margin: auto;
+}
+
+th, td {
+    border: 1px solid #dddddd;
+    text-align: center;
+    padding: 5px;
+    background: transparent;
+}
+
+input[type="text"] {
+    border: none;
+    background: transparent;
+    width: calc(100% - 5px);
+    height: 100%;
+    font-family: Calibri;
+    text-align: center;
+}
+
+th {
+    background-color: #f2f2f2;
+    vertical-align: middle;
+}
+
+button {
+    background-color: #3c9a9a;
+    color: white;
+    border-radius: 5px;
+    border-color: transparent;
+    cursor: pointer;
+    padding: 10px;
+    margin: 15px;
+}
+
+.buttonSpace {
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+.cityForm {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+.cityForm input[type="text"] {
+    border: 1px solid #ccc;
+    padding: 5px;
+    margin-right: 5px;
+    width: 40%;
+}
+
+.cityForm button {
+    padding: 5px 10px;
+    background-color: #3c9a9a;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
