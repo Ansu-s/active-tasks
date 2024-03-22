@@ -1,0 +1,31 @@
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Table generation</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+ <h3 class="tableTitle"> User Information</h3>
+<table id="user">
+    <thead>
+    <tr>
+        <th><input type="checkbox" name="All" value="All" id="selectAll" onclick="selectAll(this)"></th>
+        <th>Sl No.</th>
+        <th>Name</th>
+        <th>E-mail</th>
+        <th>Address</th>
+    </tr>
+    </thead>
+    <tbody>
+    </tbody>
+</table>
+ <div class="buttonSpace">
+     <button onclick="addRow()">Add Row</button>
+     <button onclick="deleteSelectedRows()">Delete Row</button>
+ </div>
+<script src="index.js"></script>
+</body>
+</html>
