@@ -1,0 +1,17 @@
+table {
+    border-collapse: collapse;
+    width: 80%;
+    margin: 0 auto;
+}
+th, td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+}
+th {
+    background-color: #ece8e8;
+}
+.table-space{
+    display: flex;
+    justify-content: center;
+}
