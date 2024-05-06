@@ -1,0 +1,48 @@
+services:
+  mysql-db:
+    image: mysql:latest
+    ports:
+      - "3306:3306" 
+    environment:
+      - MYSQL_ROOT_PASSWORD=root
+      - MYSQL_DATABASE=bookstore_db
+      - MYSQL_USER=mysql_username
+      - MYSQL_PASSWORD=mysql_password
+    volumes:
+      - mysql-data:/var/lib/mysql   
+    networks:
+      - my-network
+    healthcheck:
+      test: ["CMD-SHELL", "mysqladmin ping -h localhost -u root --password=root"]
+      interval: 10s
+      retries: 5
+      start_period: 30s
+
+  react-app:
+    image: ansudock/bookstore-view
+    ports:
+      - "3000:3000"
+    environment:
+      - REACT_APP_BOOKSTORE_URL=http://spring-boot-app:8080
+    networks:
+      - my-network
+
+  spring-boot-app:
+    image: ansudock/bookstore-app
+    ports:
+      - "8080:8080"  
+    environment:
+      - SPRING_DATASOURCE_URL=jdbc:mysql://mysql-db:3306/bookstore_db
+      - SPRING_DATASOURCE_USERNAME=mysql_username
+      - SPRING_DATASOURCE_PASSWORD=mysql_password
+    depends_on:
+      mysql-db:
+        condition: service_healthy
+    networks:
+      - my-network
+
+networks:
+  my-network:
+
+volumes:
+  mysql-data:
