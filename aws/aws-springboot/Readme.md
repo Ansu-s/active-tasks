@@ -8,7 +8,19 @@
 
 ![Screenshot (341)](https://github.com/user-attachments/assets/4a9c90d9-218b-48a4-b113-b9fb886df041)
 
-# AWS DynamoDb CRUD Operations
+## Dead Letter Queue, FIFO Queue
+
+![image](https://github.com/user-attachments/assets/56eed2fa-8862-40b0-8d99-b4305ec5e40a)
+
+![image](https://github.com/user-attachments/assets/678001b0-57b3-43c9-b08b-8738abbce080)
+
+## Batch Messaging SQS
+
+![Screenshot 2024-08-07 042600](https://github.com/user-attachments/assets/cc09b7aa-ba8a-43ef-ab9b-d70a4d9018d3)
+
+![Screenshot (345)](https://github.com/user-attachments/assets/c773d731-e655-40c6-8481-66bfaebf2255)
+
+# AWS DynamoDB CRUD Operations
 
 ![Screenshot 2024-08-06 131042](https://github.com/user-attachments/assets/237329f0-1225-419b-b82e-33aebb8ec5d9)
 

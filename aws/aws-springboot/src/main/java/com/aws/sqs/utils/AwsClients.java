@@ -31,7 +31,7 @@ public class AwsClients {
     public String produceMessageToSQS(String message) {
         AmazonSQS sqsClient = sqsClientBuilder();
         SendMessageRequest messageRequest = new SendMessageRequest(sqsURL, message);
-        log.info("Sending message : "+message);
+        log.info("Sending message : " + message);
         return sqsClient.sendMessage(messageRequest).getMessageId();
     }
 
