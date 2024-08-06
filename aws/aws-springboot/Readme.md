@@ -11,3 +11,13 @@
 # AWS DynamoDb CRUD Operations
 
 ![Screenshot 2024-08-06 131042](https://github.com/user-attachments/assets/237329f0-1225-419b-b82e-33aebb8ec5d9)
+
+![image](https://github.com/user-attachments/assets/0a1c4a6e-8694-42c8-a240-f36087f9c6a6)
+
+![image](https://github.com/user-attachments/assets/9889da07-817c-4154-b0bb-1f3d684c2141)
+
+![image](https://github.com/user-attachments/assets/b6e729ef-70e0-41d0-bca4-5883dc667655)
+
+![image](https://github.com/user-attachments/assets/6c5579c7-8427-4e6c-97a8-178b3b00cc01)
+
+![Screenshot (343)](https://github.com/user-attachments/assets/db4d878f-5bec-4ca8-966b-ff9f4f105931)
