@@ -7,3 +7,7 @@
 ![Screenshot 2024-08-02 165022](https://github.com/user-attachments/assets/c38d91e8-5bba-4014-9c27-0fdc763268b6)
 
 ![Screenshot (341)](https://github.com/user-attachments/assets/4a9c90d9-218b-48a4-b113-b9fb886df041)
+
+# AWS DynamoDb CRUD Operations
+
+![Screenshot 2024-08-06 131042](https://github.com/user-attachments/assets/237329f0-1225-419b-b82e-33aebb8ec5d9)
